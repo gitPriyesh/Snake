@@ -26,7 +26,7 @@ void Food::spawn(Player* snake)
 
 			m_position = position;
 			
-			//setting i = 0 here will again compare the food's position against snake's blocks position
+			//setting i = -1 here will again compare the food's position against snake's blocks position
 			i = -1;
 		}
 	}
